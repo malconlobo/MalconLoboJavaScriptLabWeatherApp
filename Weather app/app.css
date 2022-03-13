@@ -1,7 +1,31 @@
 #main-container{
-    position : absolute;
-    top : 10%;
-    bottom: 10%;
-    right: 10%;
-    left: 10%
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+body{
+    background-image: url("image.jpg");
+    height : 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container>div{
+    margin: 10px;
+}
+
+#temperature{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#weather{
+    font-size: larger;
+}
+
+
